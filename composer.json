@@ -1,0 +1,20 @@
+{
+	"name": "zstr/mikrotik",
+	"type": "library",
+	"description": "MikroTiK php api library",
+	"homepage": "https://github.com/zstr/mikrotik",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "zstr",
+			"homepage": "https://github.com/zstr"
+		}
+	],
+	"require": {
+		"php": ">=5.4",
+		"psr/log": "~1.0"
+	},
+	"autoload": {
+		"psr-4": {"zstr\\Mikrotik": ""}
+	}
+}
